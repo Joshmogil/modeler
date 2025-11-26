@@ -1,0 +1,226 @@
+.app {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: #000;
+}
+
+.webgl-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.ui-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.ui-overlay > * {
+  pointer-events: auto;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, transparent 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #fff;
+  background: linear-gradient(135deg, #3178c6 0%, #61dafb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header-controls {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.repo-path-input {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  color: #fff;
+  width: 300px;
+}
+
+.repo-path-input::placeholder {
+  color: #888;
+}
+
+.repo-path-input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.load-btn {
+  padding: 0.5rem 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #3178c6 0%, #61dafb 100%);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.load-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(49, 120, 198, 0.4);
+}
+
+.load-btn:active {
+  transform: translateY(0);
+}
+
+.load-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.toggle-btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #00ff00 0%, #00cc00 100%);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.toggle-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 255, 0, 0.4);
+}
+
+.toggle-btn:active {
+  transform: translateY(0);
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 8px;
+  border: 2px solid #3178c6;
+  font-size: 1.2rem;
+  z-index: 100;
+}
+
+.hud {
+  position: absolute;
+  top: 4rem;
+  left: 1rem;
+  right: 1rem;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  pointer-events: none;
+}
+
+.hud-section {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.hud-section div {
+  margin: 0.25rem 0;
+}
+
+.breadcrumb {
+  color: #61dafb;
+  font-weight: bold;
+}
+
+.instructions {
+  max-width: 500px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.instructions div {
+  margin: 0.5rem 0;
+  opacity: 0.9;
+}
+
+.status-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.75rem 1rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: #aaa;
+  font-size: 0.85rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.load-btn:active {
+  transform: translateY(0);
+}
+
+.status {
+  margin: 1rem 0;
+  padding: 0.75rem;
+  background: rgba(49, 120, 198, 0.2);
+  border-radius: 6px;
+  color: #61dafb;
+  font-size: 0.85rem;
+}
+
+.info {
+  margin-top: 2rem;
+  text-align: left;
+  font-size: 0.85rem;
+}
+
+.info h3 {
+  margin: 1rem 0 0.5rem 0;
+  color: #3178c6;
+  font-size: 1rem;
+}
+
+.info ul {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+  color: #ccc;
+}
+
+.info li {
+  margin: 0.25rem 0;
+}

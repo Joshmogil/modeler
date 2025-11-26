@@ -1,0 +1,26 @@
+[
+{
+  "id": "2b8b6e43-83c7-4c9c-9c0b-6b3b3b3b3b3b",
+  "created_at": "2025-10-28T10:01:00Z",
+  "starting_date": "2025-10-28T10:01:00Z",
+  "achieved": false,
+  "active": true,
+  "starting_point": "Comfortable with running and cycling at an intermediate level.",
+  "target": "Complete a 10k run without stopping.",
+  "target_date": "2026-02-28T10:00:00Z",
+  "progress": [],
+  "user_id": "00000000-0000-0000-0000-000000000000"
+},
+{
+  "id": "3c9c7f54-94d8-5d1d-0e1f-7c4c4c4c4c4c",
+  "created_at": "2025-10-28T10:05:00Z",
+  "starting_date": "2025-10-28T10:05:00Z",
+  "achieved": false,
+  "active": true,
+  "starting_point": "Squat max is 205 lbs",
+  "target": "Increase squat max to 250 lbs",
+  "target_date": "2026-04-30T10:00:00Z",
+  "progress": [],
+  "user_id": "00000000-0000-0000-0000-000000000000"
+}
+]

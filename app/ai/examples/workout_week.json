@@ -1,0 +1,281 @@
+[
+    {
+        "id": "710807ee-0365-4777-b299-fca212ffdd17",
+        "title": "Full-Body Strength & 10K Prep",
+        "headline": "A balanced session targeting key strength lifts and building endurance for your 10K goal.",
+        "date": "2024-05-18T08:00:00Z",
+        "workout": [
+            {
+                "id": "ddb9baea-a2b7-4946-aa4c-e1354c780ed8",
+                "exercise": "Dynamic Warm-up",
+                "prescribed_amount": {
+                    "min_amount": 10.0,
+                    "max_amount": 10.0
+                },
+                "actual_amount": 10.0,
+                "amount_unit": "minutes",
+                "prescribed_intensity": {
+                    "min_amount": 0.0,
+                    "max_amount": 0.0
+                },
+                "actual_intensity": 0.0,
+                "intensity_unit": "n/a",
+                "perceived_exertion": "Easy",
+                "done": null
+            },
+            {
+                "id": "bb2119e5-50ad-4033-ab46-507eeadf103e",
+                "exercise": "Barbell Back Squat",
+                "prescribed_amount": {
+                    "min_amount": 8.0,
+                    "max_amount": 10.0
+                },
+                "actual_amount": 10.0,
+                "amount_unit": "reps",
+                "prescribed_intensity": {
+                    "min_amount": 60.0,
+                    "max_amount": 70.0
+                },
+                "actual_intensity": 65.0,
+                "intensity_unit": "kg",
+                "perceived_exertion": "Medium",
+                "done": null
+            },
+            {
+                "id": "ccfea9df-3fc1-4f4f-a20b-870ca00b4397",
+                "exercise": "Barbell Back Squat",
+                "prescribed_amount": {
+                    "min_amount": 8.0,
+                    "max_amount": 10.0
+                },
+                "actual_amount": 9.0,
+                "amount_unit": "reps",
+                "prescribed_intensity": {
+                    "min_amount": 70.0,
+                    "max_amount": 80.0
+                },
+                "actual_intensity": 75.0,
+                "intensity_unit": "kg",
+                "perceived_exertion": "Hard",
+                "done": null
+            },
+            {
+                "id": "17b1f659-57f1-48c0-aa0d-8269bde8c055",
+                "exercise": "Barbell Back Squat",
+                "prescribed_amount": {
+                    "min_amount": 6.0,
+                    "max_amount": 8.0
+                },
+                "actual_amount": 8.0,
+                "amount_unit": "reps",
+                "prescribed_intensity": {
+                    "min_amount": 80.0,
+                    "max_amount": 90.0
+                },
+                "actual_intensity": 85.0,
+                "intensity_unit": "kg",
+                "perceived_exertion": "Hard",
+                "done": null
+            },
+            {
+                "id": "8358566d-ba1b-4cb6-a3a7-8b5bca3096cc",
+                "exercise": "Barbell Bench Press",
+                "prescribed_amount": {
+                    "min_amount": 8.0,
+                    "max_amount": 10.0
+                },
+                "actual_amount": 10.0,
+                "amount_unit": "reps",
+                "prescribed_intensity": {
+                    "min_amount": 50.0,
+                    "max_amount": 60.0
+                },
+                "actual_intensity": 55.0,
+                "intensity_unit": "kg",
+                "perceived_exertion": "Medium",
+                "done": null
+            },
+            {
+                "id": "88fce890-683e-4b7a-9a77-d7072c4f5841",
+                "exercise": "Barbell Bench Press",
+                "prescribed_amount": {
+                    "min_amount": 8.0,
+                    "max_amount": 10.0
+                },
+                "actual_amount": 9.0,
+                "amount_unit": "reps",
+                "prescribed_intensity": {
+                    "min_amount": 60.0,
+                    "max_amount": 70.0
+                },
+                "actual_intensity": 65.0,
+                "intensity_unit": "kg",
+                "perceived_exertion": "Hard",
+                "done": null
+            },
+            {
+                "id": "2f2b595f-cfc3-4510-9621-cb09f26ad108",
+                "exercise": "Barbell Bench Press",
+                "prescribed_amount": {
+                    "min_amount": 6.0,
+                    "max_amount": 8.0
+                },
+                "actual_amount": 7.0,
+                "amount_unit": "reps",
+                "prescribed_intensity": {
+                    "min_amount": 70.0,
+                    "max_amount": 80.0
+                },
+                "actual_intensity": 75.0,
+                "intensity_unit": "kg",
+                "perceived_exertion": "Hard",
+                "done": null
+            },
+            {
+                "id": "c8f96958-1af6-4095-8cb9-771fa49e72e0",
+                "exercise": "Deadlift",
+                "prescribed_amount": {
+                    "min_amount": 6.0,
+                    "max_amount": 8.0
+                },
+                "actual_amount": 8.0,
+                "amount_unit": "reps",
+                "prescribed_intensity": {
+                    "min_amount": 70.0,
+                    "max_amount": 80.0
+                },
+                "actual_intensity": 75.0,
+                "intensity_unit": "kg",
+                "perceived_exertion": "Medium",
+                "done": null
+            },
+            {
+                "id": "a43d0580-92e8-497c-bd9c-d883f12bf02b",
+                "exercise": "Deadlift",
+                "prescribed_amount": {
+                    "min_amount": 4.0,
+                    "max_amount": 6.0
+                },
+                "actual_amount": 5.0,
+                "amount_unit": "reps",
+                "prescribed_intensity": {
+                    "min_amount": 90.0,
+                    "max_amount": 100.0
+                },
+                "actual_intensity": 95.0,
+                "intensity_unit": "kg",
+                "perceived_exertion": "Hard",
+                "done": null
+            },
+            {
+                "id": "6ad68513-eaab-46df-a39b-d5517e0ed312",
+                "exercise": "Walking Lunges",
+                "prescribed_amount": {
+                    "min_amount": 10.0,
+                    "max_amount": 12.0
+                },
+                "actual_amount": 12.0,
+                "amount_unit": "reps per leg",
+                "prescribed_intensity": {
+                    "min_amount": 0.0,
+                    "max_amount": 10.0
+                },
+                "actual_intensity": 10.0,
+                "intensity_unit": "kg",
+                "perceived_exertion": "Medium",
+                "done": null
+            },
+            {
+                "id": "52665ed4-bbde-45d2-99d5-db271383a88d",
+                "exercise": "Walking Lunges",
+                "prescribed_amount": {
+                    "min_amount": 10.0,
+                    "max_amount": 12.0
+                },
+                "actual_amount": 11.0,
+                "amount_unit": "reps per leg",
+                "prescribed_intensity": {
+                    "min_amount": 10.0,
+                    "max_amount": 15.0
+                },
+                "actual_intensity": 12.0,
+                "intensity_unit": "kg",
+                "perceived_exertion": "Hard",
+                "done": null
+            },
+            {
+                "id": "9eaf760c-708e-4aec-9a07-c4f21a6bf31a",
+                "exercise": "Incline Dumbbell Press",
+                "prescribed_amount": {
+                    "min_amount": 8.0,
+                    "max_amount": 12.0
+                },
+                "actual_amount": 10.0,
+                "amount_unit": "reps",
+                "prescribed_intensity": {
+                    "min_amount": 15.0,
+                    "max_amount": 20.0
+                },
+                "actual_intensity": 17.5,
+                "intensity_unit": "kg per hand",
+                "perceived_exertion": "Medium",
+                "done": null
+            },
+            {
+                "id": "6469a130-b486-495b-b541-7cf1bd3c0437",
+                "exercise": "Incline Dumbbell Press",
+                "prescribed_amount": {
+                    "min_amount": 8.0,
+                    "max_amount": 12.0
+                },
+                "actual_amount": 9.0,
+                "amount_unit": "reps",
+                "prescribed_intensity": {
+                    "min_amount": 20.0,
+                    "max_amount": 25.0
+                },
+                "actual_intensity": 22.5,
+                "intensity_unit": "kg per hand",
+                "perceived_exertion": "Hard",
+                "done": null
+            },
+            {
+                "id": "c9a62ba3-0339-4cec-b2d9-ef160f75e896",
+                "exercise": "Steady-State Run",
+                "prescribed_amount": {
+                    "min_amount": 30.0,
+                    "max_amount": 30.0
+                },
+                "actual_amount": 30.0,
+                "amount_unit": "minutes",
+                "prescribed_intensity": {
+                    "min_amount": 130.0,
+                    "max_amount": 150.0
+                },
+                "actual_intensity": 140.0,
+                "intensity_unit": "bpm",
+                "perceived_exertion": "Medium",
+                "done": null
+            },
+            {
+                "id": "dcc1b35d-e049-4b73-b052-197a69a2ee6f",
+                "exercise": "Cool-down & Stretching",
+                "prescribed_amount": {
+                    "min_amount": 10.0,
+                    "max_amount": 10.0
+                },
+                "actual_amount": 10.0,
+                "amount_unit": "minutes",
+                "prescribed_intensity": {
+                    "min_amount": 0.0,
+                    "max_amount": 0.0
+                },
+                "actual_intensity": 0.0,
+                "intensity_unit": "n/a",
+                "perceived_exertion": "Easy",
+                "done": null
+            }
+        ],
+        "done": null
+    }
+]

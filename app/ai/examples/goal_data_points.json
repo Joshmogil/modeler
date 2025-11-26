@@ -1,0 +1,22 @@
+[
+    {
+        "date": "2024-01-15T00:00:00Z",
+        "percent_estimate": 10.0,
+        "semantic_description": "Completed squats up to 190 lbs, increasing strength."
+    },
+    {
+        "date": "2024-01-15T00:00:00Z",
+        "percent_estimate": 5.0,
+        "semantic_description": "Completed lunges up to 85 lbs, building leg power."
+    },
+    {
+        "date": "2024-01-15T00:00:00Z",
+        "percent_estimate": 8.0,
+        "semantic_description": "Held planks for 45 seconds, improving core stability."
+    },
+    {
+        "date": "2024-01-15T00:00:00Z",
+        "percent_estimate": 3.0,
+        "semantic_description": "Completed glute bridges with 25 lbs, targeting glute strength."
+    }
+]

@@ -1,0 +1,39 @@
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "is_active": true,
+  "is_premium": false,
+  "email": "josh.doe@example.com",
+  "apple_user_id": null,
+  "provider": "google",
+  "measurement_system": "Imperial",
+  "refresh_token": null,
+  "first_name": "Josh",
+  "last_name": "Doe",
+  "display_name": "Josh D.",
+  "variety_preference": "Medium",
+  "activity_level": "Moderately Active",
+  "age": 28,
+  "desired_workouts_per_week": 3,
+  "birthday": "1997-10-22T14:30:00Z",
+  "interests": [
+    {
+      "name": "Strength Training",
+      "skill": "Advanced",
+      "focus": "Primary",
+      "favorite_exercises": [
+        "Squats",
+        "Deadlifts",
+        "Bench Press"
+      ]
+    },
+    {
+      "name": "Cardio",
+      "skill": "Intermediate",
+      "focus": "Secondary",
+      "favorite_exercises": [
+        "Running",
+        "Cycling"
+      ]
+    }
+  ]
+}
